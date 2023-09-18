@@ -9,15 +9,13 @@ int main() {
     // Write C++ code here
    
     for(int i = 0 ; i<MAX ; i++ ){
+        y[i] = 0;
         for(int j= 0 ; j<MAX ; j++ ){
             A[i][j] = 2;
     }
     }
     for(int i = 0 ; i<MAX ; i++ ){
         x[i] = i+1;
-    }
-    for(int i = 0 ; i<MAX ; i++ ){
-        y[i] = 0;
     }
     
 
